@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.placidmasvidal.cqrsandeventsourcing'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile(group: 'org.axonframework', name: 'axon', version: '4.3.4', ext: 'pom') {
+        exclude group: 'org.axonframework', module: 'axon-server-connector'
+    }
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

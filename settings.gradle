@@ -1,3 +1,4 @@
 rootProject.name = 'CQRS-and-EventSourcing'
 include 'commandside'
+include 'queryside'
 
