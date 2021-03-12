@@ -26,3 +26,6 @@ hs_err_pid*
 CQRS-and-EventSourcing.iml
 .settings
 .DS_Store
+build
+.gradle
+.gradle
