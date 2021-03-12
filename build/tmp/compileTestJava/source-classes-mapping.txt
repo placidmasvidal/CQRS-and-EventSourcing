@@ -1,0 +1,2 @@
+com/placidmasvidal/cqrsandeventsourcing/cqrsandeventsourcing/CqrsAndEventSourcingApplicationTests.java
+ com.placidmasvidal.cqrsandeventsourcing.cqrsandeventsourcing.CqrsAndEventSourcingApplicationTests

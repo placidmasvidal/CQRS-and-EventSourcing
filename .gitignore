@@ -24,3 +24,5 @@ hs_err_pid*
 .idea
 .project
 CQRS-and-EventSourcing.iml
+.settings
+.DS_Store
