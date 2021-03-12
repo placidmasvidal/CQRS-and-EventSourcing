@@ -1,0 +1,12 @@
+com/placidmasvidal/cqrsandeventsourcing/command/addproduct/AddProductCommand.java
+ com.placidmasvidal.cqrsandeventsourcing.command.addproduct.AddProductCommand
+com/placidmasvidal/cqrsandeventsourcing/command/product/ProductDTO.java
+ com.placidmasvidal.cqrsandeventsourcing.command.product.ProductDTO
+com/placidmasvidal/cqrsandeventsourcing/command/product/ProductAggregate.java
+ com.placidmasvidal.cqrsandeventsourcing.command.product.ProductAggregate
+com/placidmasvidal/cqrsandeventsourcing/command/addproduct/AddProductEvent.java
+ com.placidmasvidal.cqrsandeventsourcing.command.addproduct.AddProductEvent
+com/placidmasvidal/cqrsandeventsourcing/command/product/ProductController.java
+ com.placidmasvidal.cqrsandeventsourcing.command.product.ProductController
+com/placidmasvidal/cqrsandeventsourcing/command/CommandApplication.java
+ com.placidmasvidal.cqrsandeventsourcing.command.CommandApplication
