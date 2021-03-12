@@ -2,6 +2,8 @@ com/placidmasvidal/cqrsandeventsourcing/command/addproduct/AddProductCommand.jav
  com.placidmasvidal.cqrsandeventsourcing.command.addproduct.AddProductCommand
 com/placidmasvidal/cqrsandeventsourcing/command/product/ProductDTO.java
  com.placidmasvidal.cqrsandeventsourcing.command.product.ProductDTO
+com/placidmasvidal/cqrsandeventsourcing/command/AxonConfig.java
+ com.placidmasvidal.cqrsandeventsourcing.command.AxonConfig
 com/placidmasvidal/cqrsandeventsourcing/command/product/ProductAggregate.java
  com.placidmasvidal.cqrsandeventsourcing.command.product.ProductAggregate
 com/placidmasvidal/cqrsandeventsourcing/command/addproduct/AddProductEvent.java

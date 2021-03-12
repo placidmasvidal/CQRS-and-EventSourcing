@@ -1,0 +1,2 @@
+com/placidmasvidal/cqrsandeventsourcing/cqrsandeventsourcing/CqrsAndEventSourcingApplication.java
+ com.placidmasvidal.cqrsandeventsourcing.cqrsandeventsourcing.CqrsAndEventSourcingApplication

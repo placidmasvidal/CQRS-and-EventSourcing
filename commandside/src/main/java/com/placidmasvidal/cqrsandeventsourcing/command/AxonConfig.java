@@ -17,7 +17,7 @@ public class AxonConfig {
                 .builder()
                 .mongoTemplate(DefaultMongoTemplate
                         .builder()
-                        .mongoDatabase(client)
+                        .mongoDatabase((com.mongodb.client.MongoClient) client)
                         .build())
                 .build();
     }
