@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
 
-    compile('org.axonframework:axon-spring-boot-starter:4.4.7') {
+    compile(group: 'org.axonframework', name: 'axon', version: '4.3.4', ext: 'pom') {
         exclude group: 'org.axonframework', module: 'axon-server-connector'
     }
 
