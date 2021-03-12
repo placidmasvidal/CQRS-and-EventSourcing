@@ -1,5 +1,6 @@
 package com.placidmasvidal.cqrsandeventsourcing.command.product;
 
+import com.placidmasvidal.cqrsandeventsourcing.command.addproduct.AddProductCommand;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +20,11 @@ public class ProductController {
 
     @PostMapping
     public CompletableFuture<String> create(@RequestBody ProductDTO dto) {
-        return null;
+        AddProductCommand command = new AddProductCommand(
+                dto.getId(),
+                dto.getName(),
+                dto.getQuantity());
+        return commandGateway.send(command);
     }
 
     @PutMapping
