@@ -29,3 +29,5 @@ CQRS-and-EventSourcing.iml
 build
 .gradle
 .gradle
+commandside/build
+old
