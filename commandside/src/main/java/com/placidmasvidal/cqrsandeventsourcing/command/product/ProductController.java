@@ -1,9 +1,11 @@
 package com.placidmasvidal.cqrsandeventsourcing.command.product;
 
 import com.placidmasvidal.cqrsandeventsourcing.command.addproduct.AddProductCommand;
+import com.placidmasvidal.cqrsandeventsourcing.command.updateproduct.UpdateProductCommand;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.concurrent.CompletableFuture;
 
@@ -29,6 +31,15 @@ public class ProductController {
 
     @PutMapping
     public CompletableFuture<String> update(@RequestBody ProductDTO dto) {
-        return null;
+        UpdateProductCommand command = new UpdateProductCommand(
+                dto.getId(),
+                dto.getQuantity());
+        return commandGateway.send(command);
     }
+
+    @GetMapping
+    public String get() {
+        return "It works!";
+    }
+
 }

@@ -1,2 +1,8 @@
+com/placidmasvidal/cqrsandeventsourcing/query/product/ProductRepository.java
+ com.placidmasvidal.cqrsandeventsourcing.query.product.ProductRepository
 com/placidmasvidal/cqrsandeventsourcing/query/QueryApplication.java
  com.placidmasvidal.cqrsandeventsourcing.query.QueryApplication
+com/placidmasvidal/cqrsandeventsourcing/query/product/ProductController.java
+ com.placidmasvidal.cqrsandeventsourcing.query.product.ProductController
+com/placidmasvidal/cqrsandeventsourcing/query/product/Product.java
+ com.placidmasvidal.cqrsandeventsourcing.query.product.Product

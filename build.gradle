@@ -32,8 +32,6 @@ allprojects {
 		implementation group: 'org.axonframework', name: 'axon-spring-boot-starter', version: '4.4.7'
 		// https://mvnrepository.com/artifact/org.axonframework/axon
 		implementation group: 'org.axonframework', name: 'axon', version: '4.3.4', ext: 'pom'
-		// https://mvnrepository.com/artifact/org.axonframework/axon-mongo
-		implementation group: 'org.axonframework', name: 'axon-mongo', version: '4.0-M2'
 		// https://mvnrepository.com/artifact/org.axonframework.extensions.mongo/axon-mongo
 		implementation group: 'org.axonframework.extensions.mongo', name: 'axon-mongo', version: '4.4'
 		compileOnly 'org.projectlombok:lombok:1.18.8'
