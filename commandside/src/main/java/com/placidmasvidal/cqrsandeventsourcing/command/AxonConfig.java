@@ -1,11 +1,9 @@
 package com.placidmasvidal.cqrsandeventsourcing.command;
 
-import com.mongodb.client.MongoClient;
 import org.axonframework.eventsourcing.eventstore.EmbeddedEventStore;
 import org.axonframework.eventsourcing.eventstore.EventStorageEngine;
 import org.axonframework.extensions.mongo.DefaultMongoTemplate;
 import org.axonframework.extensions.mongo.eventsourcing.eventstore.MongoEventStorageEngine;
-import org.axonframework.mongo.eventsourcing.tokenstore.MongoTokenStore;
 import org.axonframework.serialization.Serializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,7 +27,6 @@ public class AxonConfig {
     public EmbeddedEventStore eventStore(EventStorageEngine storageEngine){
         return EmbeddedEventStore.builder().storageEngine(storageEngine).build();
     }
-//fun eventStore(storageEngine: EventStorageEngine) = EmbeddedEventStore.builder().storageEngine(storageEngine).build()
 
     public org.axonframework.extensions.mongo.eventsourcing.tokenstore.MongoTokenStore tokenStore(com.mongodb.client.MongoClient client,
                                       Serializer serializer){
